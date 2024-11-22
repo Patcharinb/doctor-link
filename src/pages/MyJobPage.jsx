@@ -1,4 +1,4 @@
-import MyJob from '../features/myjob/components/Myjob'
+import MyJob from '../features/myjob/components/MyJob.jsx'
 
 export default function MyJobPage() {
     return (
