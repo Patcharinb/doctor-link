@@ -1,5 +1,5 @@
-import DoctorProfileImageEdit from './DoctorProfileImageEdit'
-import DoctorCoverImageEdit from './CoverImageEdit'
+import DoctorProfileImageEdit from './DoctorProfileImageEdit.jsx'
+import DoctorCoverImageEdit from './CoverImageEdit.jsx'
 import { PenIcon } from '../../../icons'
 
 export default function DoctorHeader({ profile, canEdit }) {

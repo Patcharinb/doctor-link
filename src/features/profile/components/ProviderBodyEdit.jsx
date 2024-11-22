@@ -2,8 +2,8 @@ import { useSelector } from 'react-redux'
 import { useState } from 'react'
 import { useDispatch } from 'react-redux'
 import { editProfile } from '../slice/profile-slice'
-import InputBar from './InputBar'
-import AutoCompleteInput from '../../../components/autoCompleteInput'
+import InputBar from './InputBar.jsx'
+import AutoCompleteInput from '../../../components/autoCompleteInput.jsx'
 
 export default function ProviderEdit() {
     const myRole = useSelector((state) => state.auth?.role)

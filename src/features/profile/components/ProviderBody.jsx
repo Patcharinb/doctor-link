@@ -1,4 +1,4 @@
-import ProviderBodyEdit from './ProviderBodyEdit'
+import ProviderBodyEdit from './ProviderBodyEdit.jsx'
 import { MapIcon } from '../../../icons'
 import { useSelector } from 'react-redux'
 

@@ -3,9 +3,9 @@ import { useEffect } from 'react'
 import { useParams } from 'react-router-dom'
 import { useDispatch } from 'react-redux'
 import { getOtherProfile, getMyProfile } from '../slice/profile-slice'
-import DoctorHeader from './DoctorHeader'
-import DoctorBody from './DoctorBody'
-import DoctorData from './DoctorData'
+import DoctorHeader from './DoctorHeader.jsx'
+import DoctorBody from './DoctorBody.jsx'
+import DoctorData from './DoctorData.jsx'
 
 export default function DoctorProfile() {
     const userId = useSelector((state) => state.auth.user?.id)

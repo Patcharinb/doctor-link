@@ -1,6 +1,6 @@
 import React from 'react'
 import { useSelector } from 'react-redux'
-import Work from '../Work'
+import Work from '../Work.jsx'
 
 export default function Preview2({ post, p }) {
     const user = useSelector((state) => state.auth?.user)

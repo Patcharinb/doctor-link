@@ -3,7 +3,7 @@ import { useState } from 'react'
 import { useDispatch } from 'react-redux'
 import { editProfile } from '../slice/profile-slice'
 import { dateTimeTH } from '../../../utils/dateTime'
-import InputBar from './InputBar'
+import InputBar from './InputBar.jsx'
 
 export default function DoctorDataEdit() {
     const myRole = useSelector((state) => state.auth?.role)

@@ -1,4 +1,4 @@
-import DoctorBodyEdit from './DoctorBodyEdit'
+import DoctorBodyEdit from './DoctorBodyEdit.jsx'
 import { useState } from 'react'
 import { PenIcon } from '../../../icons'
 

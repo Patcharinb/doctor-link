@@ -1,5 +1,5 @@
-import ProviderCoverImageEdit from './CoverImageEdit'
-import ProviderProfileImageEdit from './ProviderProfileImageEdit'
+import ProviderCoverImageEdit from './CoverImageEdit.jsx'
+import ProviderProfileImageEdit from './ProviderProfileImageEdit.jsx'
 import { PenIcon } from '../../../icons'
 import { useDispatch, useSelector } from 'react-redux'
 

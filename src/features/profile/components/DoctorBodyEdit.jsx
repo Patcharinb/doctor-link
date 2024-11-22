@@ -2,7 +2,7 @@ import { useSelector } from 'react-redux'
 import { useState } from 'react'
 import { useDispatch } from 'react-redux'
 import { editProfile } from '../slice/profile-slice'
-import InputBar from './InputBar'
+import InputBar from './InputBar.jsx'
 
 export default function DoctorBodyEdit() {
     const myRole = useSelector((state) => state.auth?.role)

@@ -4,8 +4,8 @@ import { useParams } from 'react-router-dom'
 import { useDispatch } from 'react-redux'
 import { getOtherProfile, getMyProfile } from '../slice/profile-slice'
 import * as profileService from '../../../api/profile-api'
-import ProviderHeader from './ProviderHeader'
-import ProviderBody from './ProviderBody'
+import ProviderHeader from './ProviderHeader.jsx'
+import ProviderBody from './ProviderBody.jsx'
 import { useState } from 'react'
 
 export default function ProviderProfile() {

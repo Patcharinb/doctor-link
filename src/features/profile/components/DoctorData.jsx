@@ -1,4 +1,4 @@
-import DoctorDataEdit from './DoctorDataEdit'
+import DoctorDataEdit from './DoctorDataEdit.jsx'
 import { EditIcon } from '../../../icons'
 import { dateReverse } from '../../../utils/dateTime'
 import { useSelector } from 'react-redux'
